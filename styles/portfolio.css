@@ -1,0 +1,100 @@
+/* Font style */
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Shared style */
+.text-primary{
+    color: #FD6E0A;
+}
+
+.dark-2{
+    color: #474747;
+}
+
+.header{
+    background-image: url("/images/developer.png"), url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* Nav Styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    margin-left: px;
+}
+
+nav li a{
+text-decoration: none;
+font-size: 20px;
+color: #474747;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+/* Banner styles */
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600px;
+}
+
+.banner-content{
+    max-width: 580;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 85;
+    color: #181818;
+}
+
+.banner-description{
+    font-weight: 400;
+    font-size: 18;
+    color: #757575;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 200px;
+
+}
+
+/* Hardy photo */
+.hardy{
+    /* height: 676; */
+    width: 584;
+    margin-right: 38;
+}
