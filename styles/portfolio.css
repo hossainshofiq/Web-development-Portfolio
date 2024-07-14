@@ -185,8 +185,27 @@
   }
   
   @media screen and (max-width: 576px) {
-      .skills-container, .resume-container, footer, .about-items {
+      .skills-container, .resume-container, footer, .about-items, .banner, nav , nav > ul {
           flex-direction: column;
+      }
+
+      nav > ul{
+        gap: 10px;
+      }
+
+      .banner{
+        margin: 20px;
+      }
+      .header{
+        background-image: none;
+      }
+      .banner-profile-pic{
+        width: 100%;
+      }
+
+      .btn-primary{
+        padding: 20px;
+        /* margin: 10px; */
       }
       footer, .about{
           padding: 20px;
